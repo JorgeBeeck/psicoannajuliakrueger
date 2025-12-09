@@ -1,6 +1,6 @@
 {
     "buildCommand": "echo 'Site estático - sem build necessário'",
-    "outputDirectory": "./",
+    "outputDirectory": ".",
     "framework": "html",
     "headers": [
         {
