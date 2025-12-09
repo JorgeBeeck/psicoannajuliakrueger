@@ -1,0 +1,25 @@
+# robots.txt - Instruções para buscadores
+
+# Permitir todos os buscadores acessarem o site
+User-agent: *
+Allow: /
+Disallow: 
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://psicoannajuliakrueger.vercel.app/sitemap.xml
+
+# Delay para crawlers mais agressivos (opcional)
+Crawl-delay: 1
+
+# Notas:
+# - Atualize "seu-dominio.com" com seu domínio real
+# - Este arquivo fica na raiz do site (junto ao index.html)
+# - Buscadores checam automaticamente /robots.txt

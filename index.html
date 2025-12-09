@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Primary meta tags -->
+  <title>Psicóloga Anna Júlia Krueger — Psicodrama | Atendimento online (São Paulo - Jabaquara)</title>
+  <meta name="description"
+    content="Psicóloga Anna Júlia Krueger (CRP 06/225850). Psicodrama, Humanização e Afeto. Atendimento online — Agende sua sessão pelo WhatsApp." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://psicoannajuliakrueger.vercel.app/" />
+  <meta property="og:title"
+    content="Psicóloga Anna Júlia Krueger — Psicodrama | Atendimento online (São Paulo - Jabaquara)" />
+  <meta property="og:description"
+    content="Psicóloga (CRP 06/225850). Psicodrama, Humanização e Afeto. Atendimento online — Agende pelo WhatsApp." />
+  <meta property="og:image" content="https://psicoannajuliakrueger.vercel.app/perfil.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Psicóloga Anna Júlia Krueger — Psicodrama | Atendimento online" />
+  <meta name="twitter:description"
+    content="Psicóloga (CRP 06/225850). Psicodrama, Humanização e Afeto. Atendimento online — Agende pelo WhatsApp." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://psicoannajuliakrueger.vercel.app/" />
+
+  <!-- Preconnect para CDN do Tailwind (performance) -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <!-- Tailwind CSS via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- Preload da imagem principal (LCP) -->
+  <link rel="preload" as="image" href="perfil.jpg">
+
+  <!-- Estilos customizados (críticos para o site) -->
+  <style>
+    /* Font stack seguro para todos os navegadores */
+    html {
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    /* Animação fade-up para elementos ao entrar na viewport */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity 0.45s ease, transform 0.45s ease;
+    }
+
+    .fade-up.visible {
+      opacity: 1;
+      transform: none;
+    }
+
+    /* Skip link (acessibilidade) - oculto por padrão, visível ao focar */
+    .skip-link {
+      position: absolute;
+      left: -999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .skip-link:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      left: 0;
+      margin: 8px;
+      padding: 8px;
+      background: #111;
+      color: #fff;
+      z-index: 60;
+      border-radius: 4px;
+    }
+
+    /* Floating WhatsApp button (FAB) - fixo no canto inferior direito */
+    .whatsapp-fab {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      background: #25D366;
+      color: #fff;
+      width: 56px;
+      height: 56px;
+      border-radius: 9999px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 6px 18px rgba(37, 211, 102, 0.18);
+      z-index: 60;
+      transition: transform 0.12s ease;
+      text-decoration: none;
+    }
+
+    .whatsapp-fab:hover {
+      transform: translateY(-3px);
+    }
+
+    .whatsapp-fab svg {
+      width: 22px;
+      height: 22px;
+    }
+  </style>
+
+  <!-- JSON-LD Schema for local business / professional -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "name": "Anna Júlia Krueger",
+      "description": "Psicóloga (CRP 06/225850). Psicodrama, Humanização e Afeto. Atendimento online. Agende sua sessão pelo WhatsApp.",
+      "url": "https://psicoannajuliakrueger.vercel.app/",
+      "telephone": "+55 47 99949-1211",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "São Paulo",
+        "addressRegion": "SP"
+      },
+      "priceRange": "Consultar",
+      "medicalSpecialty": "Psychology",
+      "sameAs": ["https://www.instagram.com/psico.annaju"]
+    }
+    </script>
+
+</head>
+
+<body class="bg-gray-50 text-gray-800 antialiased">
+
+  <a href="#main-content" class="skip-link">Pular para o conteúdo</a>
+
+  <!-- HEADER / NAVEGAÇÃO -->
+  <header class="bg-white shadow-sm sticky top-0 z-40">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-full bg-indigo-600 flex items-center justify-center text-white font-bold">
+          AJ</div>
+        <div>
+          <a href="/" class="font-semibold text-lg">Anna Júlia Krueger</a>
+          <div class="text-xs text-gray-500">Psicóloga • CRP 06/225850</div>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center space-x-4 text-sm">
+        <a href="#servicos" class="hover:underline">Serviços</a>
+        <a href="#sobre" class="hover:underline">Sobre</a>
+        <a href="#contato" class="bg-indigo-600 text-white px-4 py-2 rounded-md">Agendar</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main id="main-content" role="main" tabindex="-1">
+
+    <!-- HERO / SEÇÃO PRINCIPAL -->
+    <section class="max-w-5xl mx-auto px-6 pt-12 pb-8 text-center">
+      <div class="md:flex md:items-center md:space-x-8">
+        <div class="md:flex-1">
+          <h1 class="text-3xl md:text-4xl font-bold mb-4">Psicóloga <span class="text-indigo-600">Anna Júlia
+              Krueger</span>
+          </h1>
+          <p class="text-gray-600 mb-4">CRP: <strong>06/225850</strong> — Atendimento online. Base em
+            <strong>São Paulo (Jabaquara, Zona Sul)</strong>.
+          </p>
+          <p class="text-lg text-gray-700 mb-6">Abordagem: <strong>Psicodrama, Humanização e
+              Afeto</strong>.
+            Acompanhamento para ansiedade, depressão, relacionamento, autoestima e bem-estar emocional.</p>
+
+          <div class="flex flex-col sm:flex-row justify-center gap-3">
+            <a href="https://api.whatsapp.com/send/?phone=5547999491211&text&type=phone_number&app_absent=0"
+              target="_blank" rel="noopener"
+              class="px-6 py-3 rounded-md text-white bg-indigo-600 hover:bg-indigo-700">Agendar pelo
+              WhatsApp</a>
+            <a href="#sobre" class="px-6 py-3 rounded-md border border-indigo-600 text-indigo-600">Saiba
+              mais</a>
+          </div>
+
+          <p class="text-xs text-gray-500 mt-6">Atendimento com sigilo e ética profissional. Sessões de 50
+            minutos.</p>
+        </div>
+
+        <div class="md:w-80 mt-8 md:mt-0">
+          <img src="perfil.jpg" srcset="perfil.jpg 1200w" sizes="(max-width:768px) 100vw, 320px" width="1200"
+            height="1600" loading="lazy" alt="Foto da psicóloga Anna Júlia Krueger"
+            class="w-full rounded-xl shadow-lg object-cover">
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVIÇOS / ESPECIALIDADES -->
+    <section id="servicos" class="max-w-5xl mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold text-center mb-8">Como posso ajudar</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+          <h3 class="font-semibold mb-2">Ansiedade</h3>
+          <p class="text-sm text-gray-600">Apoio para crises, ataques de pânico e padrões de preocupação
+            intensa.</p>
+        </article>
+        <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+          <h3 class="font-semibold mb-2">Depressão</h3>
+          <p class="text-sm text-gray-600">Acompanhamento para tristeza persistente, isolamento e falta de
+            motivação.</p>
+        </article>
+        <article class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition">
+          <h3 class="font-semibold mb-2">Autoestima e Limites</h3>
+          <p class="text-sm text-gray-600">Apoio para o desenvolvimento da autoestima, fortalecimento da autoconfiança e
+            estabelecimento saudável de limites pessoais.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="bg-indigo-50 py-12">
+      <div class="max-w-4xl mx-auto px-6">
+        <h2 class="text-2xl font-bold mb-4">Sobre mim</h2>
+        <p class="text-gray-700 mb-4">Sou <strong>Anna Júlia Krueger</strong>, psicóloga (CRP
+          <strong>06/225850</strong>).
+          Especialista em Psicodrama, com foco em práticas humanizadas e afetivas.
+        </p>
+        <p class="text-gray-700">Meu trabalho é baseado em escuta qualificada, intervenções práticas e foco na
+          autonomia
+          do paciente. Atendo online para todo o Brasil; base administrativa em São Paulo — Jabaquara (Zona
+          Sul).</p>
+
+        <div class="mt-6">
+          <ul class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <li class="bg-white p-4 rounded shadow">Formação: <strong>Psicologia</strong></li>
+            <li class="bg-white p-4 rounded shadow">Abordagem: <strong>Psicodrama</strong></li>
+            <li class="bg-white p-4 rounded shadow">Atendimento: <strong>Online, individual e personalizado</strong>
+            </li>
+            <li class="bg-white p-4 rounded shadow">Atende: <strong>Adultos</strong>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA A TERAPIA -->
+    <section class="max-w-4xl mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold mb-6 text-center">Como funciona a terapia</h2>
+      <ol class="space-y-4 text-gray-700">
+        <li><strong>1.</strong> Primeira conversa (avaliativa) — conhecemos sua demanda e combinamos o plano
+          terapêutico.</li>
+        <li><strong>2.</strong> Sessões semanais de 50 minutos (ou conforme combinado).</li>
+        <li><strong>3.</strong> Acompanhamento e ajustes com foco em resultados práticos.</li>
+      </ol>
+    </section>
+
+    <!-- CONTEÚDO SOCIAL: INSTAGRAM E TIKTOK -->
+    <section id="conteudo" class="max-w-5xl mx-auto px-6 py-12">
+      <h2 class="text-2xl font-bold mb-6 text-center">Conteúdo de bem-estar e psicologia</h2>
+      <div class="bg-white rounded-lg shadow-md p-8 text-center">
+        <div class="mb-6">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mx-auto mb-4 text-indigo-600" fill="currentColor"
+            viewBox="0 0 24 24">
+            <path
+              d="M12 2.163c3.204 0 3.584.011 4.85.07 1.17.057 1.805.24 2.227.415.562.217.96.477 1.382.896.419.42.679.821.896 1.381.174.422.358 1.057.415 2.227.06 1.266.07 1.646.07 4.85s-.011 3.584-.07 4.85c-.057 1.17-.24 1.805-.415 2.227-.217.562-.477.96-.896 1.382-.42.419-.821.679-1.381.896-.422.174-1.057.358-2.227.415-1.266.06-1.646.07-4.85.07s-3.584-.011-4.85-.07c-1.17-.057-1.805-.24-2.227-.415-.562-.217-.96-.477-1.382-.896-.419-.42-.679-.821-.896-1.381-.174-.422-.358-1.057-.415-2.227-.06-1.266-.07-1.646-.07-4.85s.011-3.584.07-4.85c.057-1.17.24-1.805.415-2.227.217-.562.477-.96.896-1.382.42-.419.821-.679 1.381-.896.422-.174 1.057-.358 2.227-.415 1.266-.06 1.646-.07 4.85-.07m0-2.163C8.695 0 8.28.011 7.003.07 5.734.13 4.902.32 4.17.608c-.743.288-1.373.675-2.002 1.303-.627.628-1.013 1.259-1.303 2.002C.577 4.732.388 5.563.328 6.832.008 8.281 0 8.695 0 12s.011 3.719.07 4.997c.06 1.269.249 2.1.537 2.832.288.743.675 1.373 1.303 2.002.628.627 1.259 1.013 2.002 1.303.732.288 1.563.477 2.832.537C8.28 23.989 8.695 24 12 24s3.719-.011 4.997-.07c1.269-.06 2.1-.249 2.832-.537.743-.288 1.373-.675 2.002-1.303.627-.628 1.013-1.259 1.303-2.002.288-.732.477-1.563.537-2.832.06-1.277.07-1.691.07-4.997s-.011-3.719-.07-4.997c-.06-1.269-.249-2.1-.537-2.832-.288-.743-.675-1.373-1.303-2.002-.628-.627-1.259-1.013-2.002-1.303-.732-.288-1.563-.477-2.832-.537C15.72.008 15.305 0 12 0z" />
+          </svg>
+          <h3 class="text-xl font-semibold mb-3">Siga para mais conteúdo</h3>
+          <p class="text-gray-700 mb-4">Dicas, reflexões e orientações sobre saúde mental, relacionamentos e
+            bem-estar emocional.</p>
+          <p class="text-sm text-gray-600 mb-6">Conteúdo atualizado regularmente no <strong>Instagram</strong>
+            e <strong>TikTok</strong>.</p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://www.instagram.com/psico.annaju" target="_blank" rel="noopener"
+            class="inline-flex items-center gap-2 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.011 4.85.07 1.17.057 1.805.24 2.227.415.562.217.96.477 1.382.896.419.42.679.821.896 1.381.174.422.358 1.057.415 2.227.06 1.266.07 1.646.07 4.85s-.011 3.584-.07 4.85c-.057 1.17-.24 1.805-.415 2.227-.217.562-.477.96-.896 1.382-.42.419-.821.679-1.381.896-.422.174-1.057.358-2.227.415-1.266.06-1.646.07-4.85.07s-3.584-.011-4.85-.07c-1.17-.057-1.805-.24-2.227-.415-.562-.217-.96-.477-1.382-.896-.419-.42-.679-.821-.896-1.381-.174-.422-.358-1.057-.415-2.227-.06-1.266-.07-1.646-.07-4.85s.011-3.584.07-4.85c.057-1.17.24-1.805.415-2.227.217-.562.477-.96.896-1.382.42-.419.821-.679 1.381-.896.422-.174 1.057-.358 2.227-.415 1.266-.06 1.646-.07 4.85-.07m0-2.163C8.695 0 8.28.011 7.003.07 5.734.13 4.902.32 4.17.608c-.743.288-1.373.675-2.002 1.303-.627.628-1.013 1.259-1.303 2.002C.577 4.732.388 5.563.328 6.832.008 8.281 0 8.695 0 12s.011 3.719.07 4.997c.06 1.269.249 2.1.537 2.832.288.743.675 1.373 1.303 2.002.628.627 1.259 1.013 2.002 1.303.732.288 1.563.477 2.832.537C8.28 23.989 8.695 24 12 24s3.719-.011 4.997-.07c1.269-.06 2.1-.249 2.832-.537.743-.288 1.373-.675 2.002-1.303.627-.628 1.013-1.259 1.303-2.002.288-.732.477-1.563.537-2.832.06-1.277.07-1.691.07-4.997s-.011-3.719-.07-4.997c-.06-1.269-.249-2.1-.537-2.832-.288-.743-.675-1.373-1.303-2.002-.628-.627-1.259-1.013-2.002-1.303-.732-.288-1.563-.477-2.832-.537C15.72.008 15.305 0 12 0z" />
+            </svg>
+            Instagram
+          </a>
+          <a href="https://www.tiktok.com/@annajukrueger?_r=1&_t=ZS-925IviYYAwG" target="_blank" rel="noopener"
+            class="inline-flex items-center gap-2 px-6 py-3 bg-black hover:bg-gray-800 text-white rounded-lg font-medium transition">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+              <path
+                d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.1 1.86 2.89 2.89 0 0 1 2.31-4.64 2.86 2.86 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-.54-.05z" />
+            </svg>
+            TikTok
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AGENDAMENTO PELO WHATSAPP -->
+    <section id="contato" class="bg-indigo-50 py-12">
+      <div class="max-w-2xl mx-auto px-6 text-center">
+        <h2 class="text-2xl font-bold mb-4">Agende sua sessão</h2>
+        <p class="text-gray-600 mb-6">Para agilizar o agendamento, prefiro receber mensagens pelo WhatsApp.
+          Clique no
+          botão abaixo e envie seu nome, melhor dia/horário e uma breve descrição da sua demanda.</p>
+
+        <div class="bg-white p-6 rounded-lg shadow-md inline-block text-left">
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
+              <img src="perfil.jpg" alt="Foto da psicóloga Anna Júlia Krueger" class="w-full h-full object-cover">
+            </div>
+            <div>
+              <div class="font-semibold">Anna Júlia Krueger</div>
+              <div class="text-sm text-gray-500">Psicóloga • Atendimento online (base em São Paulo -
+                Jabaquara)</div>
+            </div>
+          </div>
+
+          <div class="mt-6">
+            <a href="https://api.whatsapp.com/send/?phone=5547999491211&text&type=phone_number&app_absent=0"
+              target="_blank" rel="noopener"
+              class="inline-flex items-center gap-3 px-5 py-3 bg-green-500 hover:bg-green-600 text-white rounded-lg font-medium">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"
+                aria-hidden="true">
+                <path
+                  d="M20.52 3.48A11.95 11.95 0 0012 0C5.373 0 0 5.373 0 12a11.95 11.95 0 003.48 8.52L0 24l3.6-1.02A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12 0-3.2-1.25-6.16-3.48-8.52zM12 22.2c-2.1 0-4.05-.6-5.76-1.62l-.42-.24-2.16.62.62-2.1-.24-.42A9.6 9.6 0 011.8 12 10.2 10.2 0 0112 1.8 10.2 10.2 0 0122.2 12 10.2 10.2 0 0112 22.2z" />
+              </svg>
+              Agendar pelo WhatsApp
+            </a>
+          </div>
+
+          <p class="text-xs text-gray-500 mt-4">Ao enviar mensagem você concorda em ser contatado para fins de
+            agendamento. Respeitamos seu sigilo profissional.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-gray-900 text-gray-300 py-8 mt-12">
+    <div class="max-w-5xl mx-auto px-6 text-sm grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div>
+        <h4 class="font-semibold text-white">Anna Júlia Krueger</h4>
+        <div>CRP: 06/225850</div>
+        <div>Atendimento: Online (base em São Paulo - Jabaquara)</div>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white">Links</h4>
+        <ul>
+          <li><a href="#servicos" class="hover:underline">Serviços</a></li>
+          <li><a href="#sobre" class="hover:underline">Sobre</a></li>
+          <li><a href="#contato" class="hover:underline">Contato</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white">Redes</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/psico.annaju" target="_blank" rel="noopener"
+              class="hover:underline">Instagram</a></li>
+          <li><a href="https://www.tiktok.com/@annajukrueger?_r=1&_t=ZS-925IviYYAwG" target="_blank" rel="noopener"
+              class="hover:underline">TikTok</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center text-xs text-gray-500 mt-6">© 2025 • Todos os direitos reservados • Anna Júlia Krueger
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a href="https://api.whatsapp.com/send/?phone=5547999491211&text&type=phone_number&app_absent=0" class="whatsapp-fab"
+    aria-label="Agendar pelo WhatsApp" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+      <path
+        d="M20.52 3.48A11.95 11.95 0 0012 0C5.373 0 0 5.373 0 12a11.95 11.95 0 003.48 8.52L0 24l3.6-1.02A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12 0-3.2-1.25-6.16-3.48-8.52zM12 22.2c-2.1 0-4.05-.6-5.76-1.62l-.42-.24-2.16.62.62-2.1-.24-.42A9.6 9.6 0 011.8 12 10.2 10.2 0 0112 1.8 10.2 10.2 0 0122.2 12 10.2 10.2 0 0112 22.2z" />
+    </svg>
+  </a>
+
+  <!-- Script para animações e interatividade -->
+  <script>
+    // Simple intersection observer to reveal .fade-up elements
+    (function () {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('.fade-up').forEach(el => io.observe(el));
+    })();
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+/* ================================================================
+   ESTILOS CRÍTICOS (CSS Inline no HTML)
+   ================================================================ */
+
+/* Font stack seguro para todos os navegadores */
+html {
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Animação fade-up para elementos ao entrar na viewport */
+.fade-up {
+    opacity: 0;
+    transform: translateY(12px);
+    transition: opacity 0.45s ease, transform 0.45s ease;
+}
+
+.fade-up.visible {
+    opacity: 1;
+    transform: none;
+}
+
+/* Skip link (acessibilidade) - oculto por padrão, visível ao focar */
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.skip-link:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    left: 0;
+    margin: 8px;
+    padding: 8px;
+    background: #111;
+    color: #fff;
+    z-index: 60;
+    border-radius: 4px;
+}
+
+/* Floating WhatsApp button (FAB) - fixo no canto inferior direito */
+.whatsapp-fab {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    background: #25D366;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 18px rgba(37, 211, 102, 0.18);
+    z-index: 60;
+    transition: transform 0.12s ease;
+    text-decoration: none;
+}
+
+.whatsapp-fab:hover {
+    transform: translateY(-3px);
+}
+
+.whatsapp-fab svg {
+    width: 22px;
+    height: 22px;
+}
+
+/* ================================================================
+   TAILWIND CSS APLICADO
+   Importado via CDN no HTML <link> 
+   Ver: https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css
+   ================================================================ */
+
+/* Notas sobre Tailwind:
+   - Classes utility-first: bg-indigo-600, text-white, px-6, etc.
+   - Responsivas: md:flex (aplica em telas >= 768px)
+   - Não há CSS adicional necessário (tudo via classes HTML)
+   - CDN carrega automaticamente todas as classes usadas
+*/

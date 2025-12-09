@@ -1,0 +1,24 @@
+{
+    "name": "psicoannajuliakrueger",
+    "version": "1.0.0",
+    "description": "Landing page profissional - Psicóloga Anna Júlia Krueger (CRP 06/225850)",
+    "main": "index.html",
+    "scripts": {
+        "start": "open index.html",
+        "deploy": "echo 'Use Vercel para deploy automático'"
+    },
+    "keywords": [
+        "psicóloga",
+        "psicodrama",
+        "terapia",
+        "são paulo",
+        "online",
+        "atendimento"
+    ],
+    "author": "Anna Júlia Krueger",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/seu-usuario/psicoannajuliakrueger.git"
+    }
+}
